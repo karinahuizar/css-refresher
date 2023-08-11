@@ -156,7 +156,6 @@ footer {
 /* || XL  */
 @media screen and (min-width: 1200px) {
   .card {
-    /* Remove calc() - min() supports math! */
     width: min(33% - 1rem, 500px);
   }
 }
@@ -178,7 +177,6 @@ footer {
   }
 
   .card {
-    /* Remove calc() - min() supports math! */
     width: min(33% - 0.25rem, 200px);
   }
 
